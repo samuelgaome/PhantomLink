@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(79, 70, 229, 0.08), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(16, 185, 129, 0.08), transparent 25%),
+    #0f172a;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 2.5rem 1.25rem 3rem;
+  color: #e2e8f0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)) fixed,
+    radial-gradient(circle at 30% 10%, rgba(34, 211, 238, 0.06), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(79, 70, 229, 0.08), transparent 25%);
+}
+
+@media (min-width: 960px) {
+  .app-shell {
+    padding: 3rem 4.5rem 4rem;
+  }
+}
