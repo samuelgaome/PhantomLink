@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0.5rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #22d3ee, #6366f1);
+  display: grid;
+  place-items: center;
+  color: #0f172a;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.brand-label {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.brand-sub {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}

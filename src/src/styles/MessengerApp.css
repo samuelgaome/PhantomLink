@@ -1,0 +1,105 @@
+.messenger-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.messenger-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.1), rgba(59, 130, 246, 0.05));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  border-radius: 18px;
+  padding: 1.75rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.hero-text h1 {
+  margin: 0.2rem 0 0.4rem;
+  font-size: 2.2rem;
+  letter-spacing: -0.02em;
+  color: #e2e8f0;
+}
+
+.hero-copy {
+  margin: 0;
+  color: #cbd5e1;
+  max-width: 720px;
+}
+
+.hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.hero-pills span {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #cbd5e1;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: #67e8f9;
+  margin: 0;
+}
+
+.status-block {
+  background: rgba(15, 23, 42, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.status-label {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+}
+
+.status-value {
+  margin: 0.1rem 0 0.25rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.status-hint {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.grid-panels {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 960px) {
+  .hero-card {
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+  }
+
+  .grid-panels {
+    grid-template-columns: 1fr 1fr;
+  }
+}
